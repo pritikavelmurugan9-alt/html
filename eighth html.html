@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <input type="text"name="fname1" required minlength="3" maxlength="12" placeholder="Enter your First name"> <br>
+    <input type="email" name="email1" placeholder="Enter your Email address"><br>
+    <input type="password" name="pwd" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[A-Za-z0-9])(?=.*\s)" placeholder="Enter your Password"><br>
+    Gender<input type="radio" name="gender"value="M">Male 
+    <input type="radio" name="gender"value="F" >Female <br>
+    DOB:<input type="date" nmae="dob"> <br>
+    Salary:<input text="number" min="10000" max="250000" name="sal"> <br>
+    Check in time:<input text="time"name="in time"> <br>
+    Out time:<input text="time"name="out time"> <br> 
+    <textarea name="add"cols="30" rows="3"  
+    placeholder="Address"></textarea> <br>
+    Department=:<select name="dept"id="">
+    <option value="none">--------Enter the department-----</option>
+    <option value="CS-AI">Computer Science with AI</option>
+    <option value="MCA">Master of Computer application</option>
+    <option value="CA">Computer application</option>
+    </select> <br>
+    Choose Electives:<br>
+    <input type="checkbox" name="elective" value="Java programming">Java programming <br>
+    <input type="checkbox" name="elective" value="Python programming">Python programming <br>
+    <input type="checkbox" name="elective" value="Web development">Web development <br>
+    <input type="checkbox" name="elective" value="Machine learning">Machine learning <br>
+    <input type="submit" value="Save">
+    <input type="Clear all" value="Clear all" >
+</body>
+</html>
